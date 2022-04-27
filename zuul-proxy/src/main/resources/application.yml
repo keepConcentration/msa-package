@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: zuul-proxy
+
+# Eureka client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8787/eureka
+
+# Zuul
+
+#zuul: 
+# routes:s
+#  user-service:
+#   path: /user/**
+#   service-id: USER-SERVICE
