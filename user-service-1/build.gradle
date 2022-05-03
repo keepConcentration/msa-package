@@ -13,12 +13,10 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "2021.0.1")
+	set('springCloudVersion', "2021.0.2")
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'org.springframework.kafka:spring-kafka'
 	runtimeOnly 'mysql:mysql-connector-java'
